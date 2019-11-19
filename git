@@ -4,12 +4,13 @@ how to open github and make sure it works.
 git remote rm origin
 
 source link for current working project folders:
-  E:\Desktop\important matters\online learning sites
+  B:\Desktop\important matters\online learning sites
 
   cd E:\Desktop\important matters\online learning sites
 
 source link for github starter:
-  E:\Desktop\important matters\online learning sites\offline apps\github starter
+  B:\Desktop\important matters\online learning sites\offline apps\
+    github starter
 
 source link:
   https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
@@ -28,8 +29,12 @@ source link:
       git commit -m 'First commit'
       git remote add orgin { remote repo url }
       git remote -v
+      git commit -m "initial commit"
       git push origin master
       
 
 source link:
   https://www.youtube.com/watch?v=5BSpJ0bpE14
+
+  error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/ritzpunsalan/gitgoing.git'
