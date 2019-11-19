@@ -1,0 +1,21 @@
+this is how to undo repo binding and get your shit out there.
+
+source link:
+  https://www.youtube.com/watch?v=OVL7R0eT8jw
+
+    get on github site
+      follow instruction
+
+    open project folder:
+    open cmd:
+      rd .git /s/q
+        removes all attatchments
+      git init
+        new get repo folder
+      git add .
+        add folder
+      git commit -m "My first Commit"
+        commit folder
+      git remote add origin {url copy}
+
+      git push -u origin master

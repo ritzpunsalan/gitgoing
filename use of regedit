@@ -1,0 +1,7 @@
+all the changes i've made on regedit
+
+find software
+  regedit / hkey_current_user / software / microsoft / command processor / autorun (right click){new / expandable string value } e:/bloop/xxx/etc
+
+  ^^^^
+    deleted

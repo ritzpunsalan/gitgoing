@@ -1,0 +1,20 @@
+this is for the use of git. the cmd version. often known as gitbash terminal.
+
+video source link:
+  https://www.youtube.com/watch?v=hsHVGit53sg
+
+git
+  git init
+  git clone
+
+run
+  cd ~
+  cd desktop/
+  git clone (place address of your repository).
+
+  [  git clone (copied from github https:// etc. . . )].
+
+  git status
+  git address
+  git commit -m
+  git push origin master
