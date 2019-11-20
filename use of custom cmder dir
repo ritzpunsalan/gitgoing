@@ -1,0 +1,30 @@
+I want to make this directory custom and in order to do so, this is what youtube had in store for me.
+
+source link: 
+    https://www.youtube.com/watch?v=F6DeTJ-O1KY
+
+    ls
+
+in cmder files / config / user-aliases (open)
+
+    top portion don't change just check for difference via this youtube or laptop
+    also create break spacings upon editing
+
+    ni=npm install $*
+    nu=npm update $*
+    ns=npm start $*
+    nr=npm run $*
+
+    co=git check $*
+    clone=git clone $*
+    dev=git checkout dev $*
+    master=git checkout master $*
+    merge=git merge $*
+    pull=git pull $*
+    status=git status $*
+    push=if "$1" equ "" (git push) else git commit -am "$*" $T git push
+    create=curl -H "Authorization: token (copy from github / settings / Developer settings / Personal access tokens / Generate new token)" -H "Content-Type: application/json" https://api.github.com/user/repos -d "{\"name\": \"$1\"}"
+
+
+
+    create=git init && curl -H "Authorization: token (copy from github / settings / Developer settings / Personal access tokens / Generate new token)" -H "Content-Type: application/json" https://api.github.com/user/repos -d "{\"name\": \"$1\"}" && git remote add origin https://github.com/ritzpunsalan/$1.git && git add . && git commit -m "intial comment" && git push -u origin master
